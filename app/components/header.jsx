@@ -18,7 +18,7 @@ const navsData = [
 
 export default function Header( ) {
  return(
-  <section className="flex items-center justify-between w-full px-[5%] mt-6 mb-[120px] font-[Manrope] " >
+  <section className="flex items-center justify-between w-full px-[5%] mt-6 mb-[80px] md:mb-[120px] font-[Manrope] " >
    <div className="flex items-center text-sm font-semibold gap-1 " >
      <span className="font-bold text-[12px] text-white bg-zinc-900 px-2 py-1 rounded-lg" >A</span>Attribute</div>
    <div className="flex items-center gap-6" >
