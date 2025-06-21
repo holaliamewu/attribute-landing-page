@@ -1,3 +1,4 @@
+import { AlignJustify } from "lucide-react"
 import Link from "next/link"
 
 const navsData = [
@@ -21,10 +22,11 @@ export default function Header( ) {
    <div className="flex items-center text-sm font-semibold gap-1 " >
      <span className="font-bold text-[12px] text-white bg-zinc-900 px-2 py-1 rounded-lg" >A</span>Attribute</div>
    <div className="flex items-center gap-6" >
-    <nav className="flex items-center gap-4" >
+    <nav className="hidden md:flex items-center gap-4" >
       {navsData.map(nav => <Link key={nav.title} href={`/${nav.path}`} className="text-sm font-[500] text-zinc-900 ">{nav.title}</Link> )}
     </nav>
-    <button className="bg-zinc-900 text-white text-sm font-semibold px-3 py-2 rounded-xl">Get Started</button>
+    <button className="bg-zinc-900 text-white text-sm font-semibold px-3 py-2 rounded-xl">Start tracking </button>
+    <span className="flex md:hidden" ><AlignJustify size={24} /></span>
    </div>
   </section>
  )

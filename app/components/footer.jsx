@@ -21,8 +21,8 @@ const footerSocialData = [
 
 export default function Footer( ) {
  return(
- <footer className="flex justify-between bg-gradient-to-r from-blue-600 to-white px-[5%] py-12 font-[Manrope] " >
-   <section className="max-w-1/3 space-y-3 " >
+ <footer className="flex flex-col md:flex-row justify-between bg-gradient-to-r from-blue-600 to-white px-[5%] py-12 font-[Manrope] gap-[48px] " >
+   <section className="md:max-w-1/3 space-y-3 " >
      <div className="" >
      <div className="flex items-center text-sm font-semibold gap-1 " ><span className="font-bold text-[12px] text-white bg-zinc-900 px-2 py-1 rounded-lg" >A</span>Attribute</div>
       <p className="text-[24px] lg:text-[32px] font-bold pt-6 pb-3" >Start making the best decisions on your offline campaigns today!</p>
