@@ -67,7 +67,7 @@ export default function Hero( ) {
           <button className="bg-[#e35335] text-white text-sm font-semibold px-3 py-2 rounded-xl">Start tracking </button>
         </div>
         <Image width={300} height={200} src="/hero-img.svg" alt="Hero" className="hidden md:flex mx-auto mt-12 rounded-xl shadow-xl " />
-        <Image width={300} height={200} src="/hero-mobile-img.png" alt="Hero" className="flex md:hidden mx-auto mt-12 rounded-xl shadow-xl " />
+        <Image width={300} height={200} src="/hero-mobile-img.png" alt="Hero" className="flex md:hidden mx-auto mt-12 rounded-xl " />
       </main>
       <section className="flex flex-col items-center w-full bg-[#e35335] mt-28 pt-6 text-white " >
         <h2 className="text-[38px] md:text-[46px] font-bold mb-14" >Why You Need Us</h2>
