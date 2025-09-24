@@ -66,7 +66,8 @@ export default function Hero( ) {
           <p className="w-[90%] md:w-2/3 max-w-[500px] text-[16px] md:text-[18px] font-regular text-zinc-900 pb-6" >Make better and bolder decisions backed with real data from your customers or potential ones.</p>
           <button className="bg-[#e35335] text-white text-sm font-semibold px-3 py-2 rounded-xl">Start tracking </button>
         </div>
-        <Image width={300} height={200} src="/hero-img.svg" alt="Hero" className=" mx-auto mt-12 rounded-xl shadow-xl " />
+        <Image width={300} height={200} src="/hero-img.svg" alt="Hero" className="hidden md:flex mx-auto mt-12 rounded-xl shadow-xl " />
+        <Image width={300} height={200} src="/hero-mobile-img.png" alt="Hero" className="flex md:hidden mx-auto mt-12 rounded-xl shadow-xl " />
       </main>
       <section className="flex flex-col items-center w-full bg-[#e35335] mt-28 pt-6 text-white " >
         <h2 className="text-[38px] md:text-[46px] font-bold mb-14" >Why You Need Us</h2>
