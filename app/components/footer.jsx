@@ -1,3 +1,4 @@
+import { ArrowRight, MoveRight } from "lucide-react"
 import Link from "next/link"
 
 
@@ -21,39 +22,39 @@ const footerSocialData = [
 
 export default function Footer( ) {
  return(
- <footer className="flex flex-col md:flex-row justify-between bg-gradient-to-r from-blue-600 to-white px-[5%] py-12 font-[Manrope] gap-[48px] " >
-   <section className="md:max-w-1/3 space-y-3 " >
-     <div className="" >
-     <div className="flex items-center text-sm font-semibold gap-1 " ><span className="font-bold text-[12px] text-white bg-zinc-900 px-2 py-1 rounded-lg" >A</span>Attribute</div>
-      <p className="text-[24px] lg:text-[32px] font-bold pt-6 pb-3" >Start making the best decisions on your offline campaigns today!</p>
-      <button className="bg-zinc-900 text-white text-sm font-semibold px-3 py-2 rounded-xl">Start tracking </button>
-     </div>
+ <footer className="flex flex-col justify-between items-center bg-[#e35335] text-white px-[5%] py-12 font-[Manrope] gap-[80px] " >
+   <section className="md:w-6/10 space-y-3 flex flex-col items-center gap-2 " >
+      <p className="text-[48px] lg:text-[64px] text-center font-bold pt-6 pb-3" >Take control of your offline Marketing.</p>
+      <button className="flex items-center gap-2 border-2 border-white text-white text-sm font-semibold px-3 py-2 rounded-xl">Start tracking Now <MoveRight /></button>
    </section>
-   <section className="flex justify-between w-1/2 lg:w-1/3 gap-8" >
-     <div className="" >
-       <h3 className="text-sm font-semibold mb-4">Company</h3>
-       <ul className="space-y-2">
+   <section className="flex flex-col items-center w-full gap-[64px]" >
+    <div className="flex flex-col md:flex-row  gap-12" >
+     <div className="text-center" >
+       <h3 className="text-sm font-bold mb-4">Company</h3>
+       <ul className="flex flex-col gap-2 text-white">
          {footerCompanyData.map(item => (
-           <Link key={item.name} href={item.href} className="text-sm text-zinc-900 hover:underline"><li>{item.name}</li></Link>
+           <Link key={item.name} href={item.href} className="text-sm hover:underline"><li>{item.name}</li></Link>
          ))}
        </ul>
      </div>
-     <div className="" >
-       <h3 className="text-sm font-semibold mb-4">Resources</h3>
-       <ul className="space-y-2">
+     <div className="text-center" >
+       <h3 className="text-sm font-bold mb-4">Resources</h3>
+       <ul className="flex flex-col gap-2">
          {footerResourcesData.map(item => (
-           <Link key={item.name} href={item.href} className="text-sm text-zinc-900 hover:underline"><li>{item.name}</li></Link>
+           <Link key={item.name} href={item.href} className="text-sm hover:underline"><li>{item.name}</li></Link>
          ))}
        </ul>
      </div>
-     <div className="" >
-       <h3 className="text-sm font-semibold mb-4">Social</h3>
-       <ul className="space-y-2">
+     <div className="text-center" >
+       <h3 className="text-sm font-bold mb-4">Social</h3>
+       <ul className="flex flex-col gap-2">
          {footerSocialData.map(item => (
-           <Link key={item.name} href={item.href} className="text-sm text-zinc-900 hover:underline"><li>{item.name}</li></Link>
+           <Link key={item.name} href={item.href} className="text-sm hover:underline"><li>{item.name}</li></Link>
          ))}
        </ul>
      </div>
+     </div>
+      <section className="flex w-full h-[300px] border-4" >-</section>
    </section>
  </footer>
  )
