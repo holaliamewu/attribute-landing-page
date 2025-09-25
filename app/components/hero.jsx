@@ -58,7 +58,7 @@ export default function Hero( ) {
  return(
   <AnimatePresence >
     <section className="text-[64px] font-[Manrope] min-h-screen " >
-      <main className="py-18" >
+      <main className="py-18 " >
         <div
         className="flex flex-col items-center justify-center h-full px-[5%] text-center" >
           <h1 className="text-[32px] md:text-[48px] lg:text-[56px] font-black pb-6 lg:w-2/3  max-w-[800px]" >Track Offline Marketing Campaigns Like it's Digital</h1>

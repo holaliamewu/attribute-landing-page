@@ -23,7 +23,7 @@ export default function Header( ) {
 
   const [ showMobbileMenu, setShowMobileMenu ] = useState(false);
  return(
-  <section className="flex items-center justify-between w-full px-[5%] pt-6 mb-[80px] md:mb-[120px] font-[Manrope] " >
+  <section className="flex items-center justify-between w-full px-[5%] pt-6 md:mb-[120px] font-[Manrope] " >
    <img src="/attribute-logo.svg" />
    <div className="flex items-center gap-6" >
     <nav className="hidden md:flex items-center gap-4" >
