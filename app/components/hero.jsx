@@ -100,17 +100,17 @@ export default function Hero( ) {
         ))}
         </span>
       </section>
-      <section className="flex flex-col md:flex-row items-center justify-center w-9/10 md:w-1/2 mx-auto h-[50vh] md:h-[100vh] " >
+      <section className="flex flex-col md:flex-row items-center justify-center w-9/10 md:w-1/2 mx-auto h-[50vh] md:h-[100vh] gap-24 " >
         <h3 className="text-[28px] text-center lg:text-[40px] font-bold w-1/2 max-w-[400px] mb-8 " >Still need more Info or Clarity?</h3>
         <div className="flex flex-col gap-6" >
-          <span className="flex flex-col gap-2" >
+          <span className="flex flex-col gap-1" >
             <span className="flex items-center justify-center md:justify-start gap-1" >
               <Mail size={24} />
               <h4 className="text-[18px] md:text-[20px] font-semibold" >Send us a mail</h4>
             </span> 
             <h6 className="text-[16px] " >help@attribute.marketing</h6>
           </span>
-          <span className="flex flex-col gap-2" >
+          <span className="flex flex-col gap-1" >
             <span className="flex items-center justify-center md:justify-start gap-1" >
               <Phone size={24} />
               <h4 className="text-[18px] text-[20px] font-semibold" >Call us</h4>
