@@ -1,6 +1,6 @@
 "use client"
 
-import {ChartSpline, Gauge, Zap, Handshake, Mail, Phone} from "lucide-react"
+import {ChartSpline, Gauge, Zap, Handshake, Mail, Phone, MoveRight} from "lucide-react"
 import Image from "next/image";
 import { AnimatePresence, motion } from "motion/react";
 
@@ -63,7 +63,8 @@ export default function Hero( ) {
         className="flex flex-col items-center justify-center h-full px-[5%] text-center" >
           <h1 className="text-[32px] md:text-[48px] lg:text-[56px] font-black pb-6 lg:w-2/3  max-w-[800px]" >Track Offline Marketing Campaigns Like it's Digital</h1>
           <p className="w-[90%] md:w-2/3 max-w-[500px] text-[16px] md:text-[18px] font-regular text-zinc-900 pb-6" >Make better and bolder decisions backed with real data from your customers or potential ones.</p>
-          <button className="bg-[#e35335] text-white text-sm font-semibold px-3 py-2 rounded-xl">Start tracking </button>
+          <button className="flex items-center bg-[#e35335] gap-2 border-2 border-white text-white text-sm font-semibold px-3 py-2 rounded-xl">Start tracking now <MoveRight strokeWidth={1.5} /></button>
+          <p className="text-[12px] text-stone-300" >*Completely free for 7 days</p>
         </div>
         <Image width={600} height={400} src="/hero-img.svg" alt="Desktop hero image" className="hidden md:flex mx-auto mt-12 rounded-xl shadow-xl " />
         <Image width={300} height={200} src="/hero-mobile-img.png" alt="Mobile hero image" className="flex md:hidden mx-auto mt-12 rounded-xl " />
