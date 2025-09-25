@@ -22,9 +22,9 @@ const footerSocialData = [
 
 export default function Footer( ) {
  return(
- <footer className="flex flex-col justify-between items-center bg-[#e35335] text-white px-[5%] py-12 font-[Manrope] gap-[80px] " >
+ <footer className="flex flex-col justify-between items-center bg-[#e35335] text-white px-[5%] py-18 font-[Manrope] gap-[80px] " >
    <section className="md:w-6/10 space-y-3 flex flex-col items-center gap-2 " >
-      <p className="text-[48px] lg:text-[64px] text-center font-bold pt-6 pb-3" >Take control of your offline Marketing.</p>
+      <p className="text-[48px] lg:text-[64px] text-center font-bold pb-3" >Take control of your offline Marketing.</p>
       <button className="flex items-center gap-2 border-2 border-white text-white text-sm font-semibold px-3 py-2 rounded-xl">Start tracking Now <MoveRight /></button>
    </section>
    <section className="flex flex-col items-center w-full gap-[64px]" >
