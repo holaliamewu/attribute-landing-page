@@ -29,7 +29,6 @@ export default function Header( ) {
     <nav className="hidden md:flex items-center gap-4" >
       {navsData.map(nav => <Link key={nav.title} href={`/${nav.path}`} className="text-sm font-[500] text-zinc-900 ">{nav.title}</Link> )}
     </nav>
-    <button className="flex items-center bg-[#e35335] gap-2 border-2 border-white text-white text-sm font-semibold px-3 py-2 rounded-xl">Start tracking now <MoveRight strokeWidth={1.5} /></button>
     <span className="flex md:hidden relative" >
       { !showMobbileMenu && 
       <span >
