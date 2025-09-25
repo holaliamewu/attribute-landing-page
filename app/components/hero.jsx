@@ -100,7 +100,7 @@ export default function Hero( ) {
         ))}
         </span>
       </section>
-      <section className="flex flex-col md:flex-row items-center justify-center w-9/10 md:w-1/2 mx-auto h-[50vh] md:h-[100vh] gap-24 " >
+      <section className="flex flex-col md:flex-row items-center justify-center w-9/10 md:w-1/2 mx-auto h-[50vh] md:h-[100vh] md:gap-24 " >
         <h3 className="text-[28px] text-center lg:text-[40px] font-bold w-1/2 max-w-[400px] mb-8 " >Still need more Info or Clarity?</h3>
         <div className="flex flex-col gap-6" >
           <span className="flex flex-col gap-1" >
